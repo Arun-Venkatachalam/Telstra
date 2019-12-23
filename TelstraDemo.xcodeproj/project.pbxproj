@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		2FA31B7D23B0EE59007CB7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31B7C23B0EE59007CB7DB /* AppDelegate.swift */; };
 		2FA31B7F23B0EE59007CB7DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31B7E23B0EE59007CB7DB /* SceneDelegate.swift */; };
-		2FA31B8123B0EE59007CB7DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31B8023B0EE59007CB7DB /* ViewController.swift */; };
-		2FA31B8423B0EE59007CB7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA31B8223B0EE59007CB7DB /* Main.storyboard */; };
 		2FA31B8623B0EE5A007CB7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA31B8523B0EE5A007CB7DB /* Assets.xcassets */; };
 		2FA31B8923B0EE5A007CB7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA31B8723B0EE5A007CB7DB /* LaunchScreen.storyboard */; };
 		2FA31B9423B0EE5A007CB7DB /* TelstraDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31B9323B0EE5A007CB7DB /* TelstraDemoTests.swift */; };
 		2FA31B9F23B0EE5A007CB7DB /* TelstraDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31B9E23B0EE5A007CB7DB /* TelstraDemoUITests.swift */; };
+		2FA31BB223B0F04F007CB7DB /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31BB123B0F04F007CB7DB /* CountryModel.swift */; };
+		2FA31BB423B0F059007CB7DB /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31BB323B0F059007CB7DB /* NetworkLayer.swift */; };
+		2FA31BB623B0F063007CB7DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31BB523B0F063007CB7DB /* Constants.swift */; };
+		2FA31BB923B0F06D007CB7DB /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31BB723B0F06D007CB7DB /* CountryTableViewCell.swift */; };
+		2FA31BBA23B0F06D007CB7DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31BB823B0F06D007CB7DB /* ViewController.swift */; };
+		2FA31BBC23B0F078007CB7DB /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA31BBB23B0F078007CB7DB /* CountryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		2FA31B7923B0EE59007CB7DB /* TelstraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelstraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA31B7C23B0EE59007CB7DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FA31B7E23B0EE59007CB7DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FA31B8023B0EE59007CB7DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FA31B8323B0EE59007CB7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FA31B8523B0EE5A007CB7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA31B8823B0EE5A007CB7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FA31B8A23B0EE5A007CB7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		2FA31B9A23B0EE5A007CB7DB /* TelstraDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelstraDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA31B9E23B0EE5A007CB7DB /* TelstraDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraDemoUITests.swift; sourceTree = "<group>"; };
 		2FA31BA023B0EE5A007CB7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA31BB123B0F04F007CB7DB /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		2FA31BB323B0F059007CB7DB /* NetworkLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		2FA31BB523B0F063007CB7DB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2FA31BB723B0F06D007CB7DB /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		2FA31BB823B0F06D007CB7DB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FA31BBB23B0F078007CB7DB /* CountryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,13 @@
 		2FA31B7B23B0EE59007CB7DB /* TelstraDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2FA31BB023B0F00C007CB7DB /* ViewModel */,
+				2FA31BAF23B0F002007CB7DB /* View */,
+				2FA31BAE23B0EFF8007CB7DB /* Utils */,
+				2FA31BAD23B0EFE2007CB7DB /* Network */,
+				2FA31BAC23B0EFDB007CB7DB /* Model */,
 				2FA31B7C23B0EE59007CB7DB /* AppDelegate.swift */,
 				2FA31B7E23B0EE59007CB7DB /* SceneDelegate.swift */,
-				2FA31B8023B0EE59007CB7DB /* ViewController.swift */,
-				2FA31B8223B0EE59007CB7DB /* Main.storyboard */,
 				2FA31B8523B0EE5A007CB7DB /* Assets.xcassets */,
 				2FA31B8723B0EE5A007CB7DB /* LaunchScreen.storyboard */,
 				2FA31B8A23B0EE5A007CB7DB /* Info.plist */,
@@ -126,6 +137,47 @@
 				2FA31BA023B0EE5A007CB7DB /* Info.plist */,
 			);
 			path = TelstraDemoUITests;
+			sourceTree = "<group>";
+		};
+		2FA31BAC23B0EFDB007CB7DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FA31BB123B0F04F007CB7DB /* CountryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FA31BAD23B0EFE2007CB7DB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2FA31BB323B0F059007CB7DB /* NetworkLayer.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2FA31BAE23B0EFF8007CB7DB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2FA31BB523B0F063007CB7DB /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2FA31BAF23B0F002007CB7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FA31BB723B0F06D007CB7DB /* CountryTableViewCell.swift */,
+				2FA31BB823B0F06D007CB7DB /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FA31BB023B0F00C007CB7DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2FA31BBB23B0F078007CB7DB /* CountryViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +286,6 @@
 			files = (
 				2FA31B8923B0EE5A007CB7DB /* LaunchScreen.storyboard in Resources */,
 				2FA31B8623B0EE5A007CB7DB /* Assets.xcassets in Resources */,
-				2FA31B8423B0EE59007CB7DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA31B8123B0EE59007CB7DB /* ViewController.swift in Sources */,
 				2FA31B7D23B0EE59007CB7DB /* AppDelegate.swift in Sources */,
+				2FA31BB223B0F04F007CB7DB /* CountryModel.swift in Sources */,
+				2FA31BBC23B0F078007CB7DB /* CountryViewModel.swift in Sources */,
+				2FA31BB423B0F059007CB7DB /* NetworkLayer.swift in Sources */,
 				2FA31B7F23B0EE59007CB7DB /* SceneDelegate.swift in Sources */,
+				2FA31BB923B0F06D007CB7DB /* CountryTableViewCell.swift in Sources */,
+				2FA31BBA23B0F06D007CB7DB /* ViewController.swift in Sources */,
+				2FA31BB623B0F063007CB7DB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2FA31B8223B0EE59007CB7DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FA31B8323B0EE59007CB7DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2FA31B8723B0EE5A007CB7DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
